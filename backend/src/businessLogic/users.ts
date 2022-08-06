@@ -1,4 +1,4 @@
-import { UsersAccess } from './usersAcess'
+import { UsersAccess } from '../dataAccess/usersAcess'
 import { UserItem } from '../models/UserItem'
 import { CreateUserRequest } from '../requests/CreateUserRequest'
 import { UpdateUserRequest } from '../requests/UpdateUserRequest'

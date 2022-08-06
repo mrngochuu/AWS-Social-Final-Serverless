@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 import { createLogger } from '../../utils/logger'
-import { createAttachmentPresignedUrl } from '../../helpers/users'
+import { createAttachmentPresignedUrl } from '../../businessLogic/users'
 import { getUserId } from '../utils'
 
 const s3 = new AWS.S3({
